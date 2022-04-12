@@ -4,10 +4,7 @@
 ## CODERS
 ### Douglas Cabrera
 ### Monica Cabañas
-## QA
-### Elias Calderon
-### Jonathan Cornejo
-### Franklin Barton
+### Carlos Marroquin
 
 ## DEVELOPMENT SOFTWARE
 ### Visual Studio Code

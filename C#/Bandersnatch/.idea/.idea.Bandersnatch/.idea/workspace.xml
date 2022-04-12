@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e30e423f-1a31-430b-b139-0e6fcee0da3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Bandersnatch/setWeapons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bandersnatch/shop.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bandersnatch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bandersnatch/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bandersnatch/Bandersnatch.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Bandersnatch/Bandersnatch.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bandersnatch/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bandersnatch/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="27hpTdV1Z9GmbkYoNo5GkpQr3n8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,8 +67,16 @@
       <option name="presentableId" value="Default" />
       <updated>1649782180497</updated>
       <workItem from="1649782184471" duration="290000" />
-      <workItem from="1649783039512" duration="2796000" />
+      <workItem from="1649783039512" duration="7302000" />
     </task>
+    <task id="LOCAL-00001" summary="Update: C#">
+      <created>1649786231269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649786231269</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Update: C#" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: C#" />
   </component>
 </project>
