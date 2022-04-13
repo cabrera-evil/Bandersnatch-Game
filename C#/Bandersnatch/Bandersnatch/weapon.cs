@@ -1,87 +1,66 @@
-﻿namespace Bandersnatch
+﻿using System;
+
+namespace Bandersnatch
 {
-    public abstract class weapon
+    public class Weapon
     {
-        protected int id;
-        protected string name;
-        protected double failure;
-        protected int usage;
-        protected double damage;
+        private int Id;
+        private int Type;
+        private string Name;
+        private double Failure;
+        private int Usage;
+        private double Damage;
+        
+        public int id
+        {
+            get => Id;
+            set => Id = value;
+        }
 
-        protected weapon(int id, string name, double failure, int usage, double damage)
+        public string name
         {
-            this.id = id;
-            this.name = name;
-            this.failure = failure;
-            this.usage = usage;
-            this.damage = damage;
+            get => Name;
+            set => Name = value;
         }
-    }
-    public class Sword : weapon
-    {
-        public Sword(int id, string name, double failure, int usage, double damage) : base(id, name, failure, usage, damage)
-        {
-            this.id = id;
-            this.name = name;
-            this.failure = failure;
-            this.usage = usage;
-            this.damage = damage;
-        }
-    }
 
-    public class BowAndArrow : weapon
-    {
-        public BowAndArrow(int id, string name, double failure, int usage, double damage) : base(id, name, failure, usage, damage)
+        public double failure
         {
-            this.id = id;
-            this.name = name;
-            this.failure = failure;
-            this.usage = usage;
-            this.damage = damage;
+            get => Failure;
+            set => Failure = value;
+        }
+
+        public int usage
+        {
+            get => Usage;
+            set => Usage = value;
+        }
+
+        public double damage
+        {
+            get => Damage;
+            set => Damage = value;
+        }
+        public int type
+        {
+            get => Type;
+            set => Type = value;
+        }
+
+        private Random identify = new Random();
+        public Weapon(int type, string name, double failure, int usage, double damage)
+        {
+            
+            this.Id = identify.Next(0, 1000);
+            this.Type = type;
+            this.Name = name;
+            this.Failure = failure;
+            this.Usage = usage;
+            this.Damage = damage;
+        }
+        public override string ToString()
+        {
+            return "ID: "+Id+"\nNombre: "+Name+"\nProbabilidad de fallo: "+Failure+"\nUsos: "+ Usage+"\nDaño: "+Damage+"\n";
         }
     }
-    public class MagicStaff : weapon
-    {
-        public MagicStaff(int id, string name, double failure, int usage, double damage) : base(id, name, failure, usage, damage)
-        {
-            this.id = id;
-            this.name = name;
-            this.failure = failure;
-            this.usage = usage;
-            this.damage = damage;
-        }
-    }
-    public class FireBall : weapon
-    {
-        public FireBall(int id, string name, double failure, int usage, double damage) : base(id, name, failure, usage, damage)
-        {
-            this.id = id;
-            this.name = name;
-            this.failure = failure;
-            this.usage = usage;
-            this.damage = damage;
-        }
-    }
-    public class Crossbow : weapon
-    {
-        public Crossbow(int id, string name, double failure, int usage, double damage) : base(id, name, failure, usage, damage)
-        {
-            this.id = id;
-            this.name = name;
-            this.failure = failure;
-            this.usage = usage;
-            this.damage = damage;
-        }
-    }
-    public class Axe : weapon
-    {
-        public Axe(int id, string name, double failure, int usage, double damage) : base(id, name, failure, usage, damage)
-        {
-            this.id = id;
-            this.name = name;
-            this.failure = failure;
-            this.usage = usage;
-            this.damage = damage;
-        }
-    }
+    
 }
