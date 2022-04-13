@@ -2,14 +2,14 @@
 
 namespace Bandersnatch
 {
-    public class Weapon
+    public class Weapon: damage, heal
     {
         private int Id;
         private int Type;
         private string Name;
         private double Failure;
         private int Usage;
-        private double Damage;
+        protected double Damage;
         
         public int id
         {
@@ -49,7 +49,7 @@ namespace Bandersnatch
         private Random identify = new Random();
         public Weapon(int type, string name, double failure, int usage, double damage)
         {
-            
+          
             this.Id = identify.Next(0, 1000);
             this.Type = type;
             this.Name = name;
@@ -61,6 +61,17 @@ namespace Bandersnatch
         {
             return "ID: "+Id+"\nName: "+Name+"\nFailure probability: "+Failure+"\nUsage: "+ Usage+"\nDamage: "+Damage+"\n";
         }
+
+        public virtual void ReduceLife()
+        {
+            Console.WriteLine("¡Reduciendo vida del jugador!");
+        }
+
+        public virtual void AddLife()
+        {
+            Console.WriteLine("¡Añadiendo vida al jugador!");
+        }
+
     }
     
 }

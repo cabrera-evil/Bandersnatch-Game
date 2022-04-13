@@ -41,6 +41,8 @@
     <ItemGroup>
         <Compile Include="damage.cs" />
         <Compile Include="heal.cs" />
+        <Compile Include="LongDistanceWeapon.cs" />
+        <Compile Include="Player.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="setWeapons.cs" />

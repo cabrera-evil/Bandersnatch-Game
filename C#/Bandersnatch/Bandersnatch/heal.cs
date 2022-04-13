@@ -2,6 +2,6 @@
 {
     public interface heal
     {
-        
+        void AddLife(); 
     }
 }

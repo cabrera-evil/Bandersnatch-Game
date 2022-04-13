@@ -2,6 +2,6 @@
 {
     public interface damage
     {
-        
+        void ReduceLife(); 
     }
 }
