@@ -59,7 +59,7 @@ namespace Bandersnatch
         }
         public override string ToString()
         {
-            return "ID: "+Id+"\nNombre: "+Name+"\nProbabilidad de fallo: "+Failure+"\nUsos: "+ Usage+"\nDaño: "+Damage+"\n";
+            return "ID: "+Id+"\nName: "+Name+"\nFailure probability: "+Failure+"\nUsage: "+ Usage+"\nDamage: "+Damage+"\n";
         }
     }
     

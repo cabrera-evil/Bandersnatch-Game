@@ -6,16 +6,16 @@ namespace Bandersnatch
     {
         public void ShopMenu()
         {
-            Console.Write("Menu de compra de armas.\n"+
-                              "1. Espada\n"+
-                              "2. Arco y flecha\n"+
-                              "3. Ballesta\n"+
-                              "4. Hacha\n"+
-                              "5. Daga\n" +
-                              "6. Baston Magico\n"+
-                              "7. Bola de fuego\n" +
-                              "8. Posion curativa\n"+
-                              "Escriba su selecion: ");
+            Console.Write("Buy your weapons.\n"+
+                              "1. Sword\n"+
+                              "2. Bow and Arrow\n"+
+                              "3. Crossbow\n"+
+                              "4. Axe\n"+
+                              "5. Dagger\n" +
+                              "6. Magic Staff\n"+
+                              "7. Fire Ball\n" +
+                              "8. Healing potion\n"+
+                              "Your selection: ");
             int option = Convert.ToInt16(Console.ReadLine());
             switch(option)
             {
@@ -25,19 +25,19 @@ namespace Bandersnatch
                 }
                 case 2:
                 {
-                    Console.Write("\nEstadisticas del arma:\n"+
-                                      "-Nombre: Arco y flechas\n"+
-                                      "-Probabilidad de fallo: 50%\n"+
-                                      "-Usos: 4\n" +
-                                      "-Daño: 27.5\n"+
-                                      "¿Desea comprarla?(1-Si o 2-No): ");
+                    Console.Write("\nWeapon Stats:\n"+
+                                      "-Name: Bow and Arrow\n"+
+                                      "-Failure probability: 50%\n"+
+                                      "-Usage: 4\n" +
+                                      "-Damage: 27.5\n"+
+                                      "Buy this weapon?(1-Yes o 2-No): ");
                     option = Convert.ToInt16(Console.ReadLine());
                     if (option == 1)
                     {
-                        Weapon Arco = new Weapon(0, "Arco y flecha", 0, 0, 0);
+                        Weapon Arco = new Weapon(0, "Bow and Arrow", 0, 0, 0);
                         SetWeapon update = new SetWeapon();
                         update.SetValue(Arco);
-                        Console.Write("Arco y flecha comprado exitosamente");
+                        Console.Write("Bow and Arrow Purchased Successfully");
                         break;
                     }
                     else

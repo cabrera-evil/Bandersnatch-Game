@@ -10,10 +10,10 @@ namespace Bandersnatch
             int option = -1;
             while (option != 2)
             {
-                Console.Write("Menu inicial.\n" +
-                              "1. Comprar armas\n" +
-                              "2. Salir\n" +
-                              "Selecione su opcion: ");
+                Console.Write("\nMain Menu\n" +
+                              "1. Buy Weapons\n" +
+                              "2. Exit\n" +
+                              "Your selection: ");
                 option = Convert.ToInt16(Console.ReadLine());
                 switch (option)
                 {
