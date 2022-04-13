@@ -7,17 +7,26 @@ namespace Bandersnatch
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Menu inicial.\n"+
-                              "1. Comprar armas\n"+
-                              "Selecione su opcion:");
-            int option = Convert.ToInt16(Console.ReadLine());
-            switch (option)
+            int option = -1;
+            while (option != 2)
             {
-                case 1:
+                Console.Write("Menu inicial.\n" +
+                              "1. Comprar armas\n" +
+                              "2. Salir\n" +
+                              "Selecione su opcion: ");
+                option = Convert.ToInt16(Console.ReadLine());
+                switch (option)
                 {
-                    shop shop = new shop();
-                    shop.ShopMenu();
-                    break;
+                    case 1:
+                    {
+                        shop shop = new shop();
+                        shop.ShopMenu();
+                        break;
+                    }
+                    case 2:
+                    {
+                        break;
+                    }
                 }
             }
         }
