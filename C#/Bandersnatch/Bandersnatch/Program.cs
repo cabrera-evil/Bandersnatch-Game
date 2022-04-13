@@ -7,12 +7,15 @@ namespace Bandersnatch
     {
         public static void Main(string[] args)
         {
-            int option = -1;
-            while (option != 2)
+            int option = 0;
+            bool exit = false;
+            do
             {
-                Console.Write("\nMain Menu\n" +
+                Console.Write("\n----------------------------------\n" +
+                              "MAIN MENU\n" +
                               "1. Buy Weapons\n" +
                               "2. Exit\n" +
+                              "----------------------------------\n"+
                               "Your selection: ");
                 option = Convert.ToInt16(Console.ReadLine());
                 switch (option)
@@ -25,10 +28,11 @@ namespace Bandersnatch
                     }
                     case 2:
                     {
+                        exit = true;
                         break;
                     }
                 }
-            }
+            } while(!exit);
         }
     }
 } 

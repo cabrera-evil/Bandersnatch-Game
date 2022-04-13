@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e30e423f-1a31-430b-b139-0e6fcee0da3c" name="Changes" comment="Mejoras al shop, setWeapons y program">
-      <change beforePath="$PROJECT_DIR$/Bandersnatch/Bandersnatch.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Bandersnatch/Bandersnatch.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bandersnatch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bandersnatch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bandersnatch/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bandersnatch/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bandersnatch/obj/Debug/Bandersnatch.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bandersnatch/obj/Debug/Bandersnatch.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bandersnatch/shop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bandersnatch/shop.cs" afterDir="false" />
     </list>
@@ -75,6 +76,7 @@
       <workItem from="1649783039512" duration="7302000" />
       <workItem from="1649791181394" duration="526000" />
       <workItem from="1649869564650" duration="6267000" />
+      <workItem from="1649880566299" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="Update: C#">
       <created>1649786231269</created>
